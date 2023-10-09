@@ -1,18 +1,19 @@
-### Desafio-Diagramacao-de-Classes-do-iPhone-SantanderBootcamp2023
+# Desafio-Diagramacao-de-Classes-do-iPhone-SantanderBootcamp2023
 
 ## Diagrama UML
+![iPhone](https://github.com/wpfsilva/iPhone-DiagramaDeClasses/assets/55422758/4b364f99-3b0e-4c34-9063-fa7111371a45)
 
 
-# iPhone
+### iPhone
 A classe iPhone é a classe principal que representa o dispositivo como um todo. Ela implementa as interfaces ReprodutorMusical, AparelhoTelefonico e Navegador. Isso permite que o iPhone desempenhe os papéis de Reproduzir Musica, Realizar Chamadas e Navegar na Internet.
 
-# ReprodutorMusical
+### ReprodutorMusical
 A interface ReprodutorMusical define os métodos necessários para controlar a reprodução de música, como <i>tocar()</i>, <i>pausar()</i> e <i>selecionarMusica()</i>. 
 
-# AparelhoTelefonico
+### AparelhoTelefonico
 A interface AparelhoTelefonico define os métodos para realizar chamadas telefônicas e enviar mensagens, incluindo <i>ligar()</i>, <i>atender()</i> e <i>iniciarCorreioVoz()</i>.
 
-# NavegadorInternet
+### NavegadorInternet
 A interface NavegadorInternet define métodos para a navegação na web, como <i>exibirPagina()</i>, <i>adicionarNovaAba()</i> e <i>atualizarPagina()</i>. 
 
 Cada interface implementa métodos específicos ao sistema, adicionando funcionalidades e contribuindo para a formação do dispositivo iPhone, tornando-o capaz de realizar uma várias funções.
